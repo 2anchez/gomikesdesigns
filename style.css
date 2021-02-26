@@ -6,6 +6,31 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+.row {
+    padding-top: 32px;
+}
+
+.col-sm-4 {
+    color: #fff;
+    font-weight: 800;
+}
+
+.col-sm-4 ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.col-sm-4 ul li a {
+    color: #fff;
+}
+
+.col-sm-4 ul li a:hover {
+    color: #cccccc;
+}
+
+.ftr-hdr {
+    font-size: 18px;
+}
 
 a,
 button {
@@ -100,11 +125,11 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: rgba(27, 24, 24, 0.7);
 }
 
 .d-bloc button:hover {
-    color: rgba(255, 255, 255, .9);
+    color: rgba(255, 255, 255, 0.9);
 }
 
 .d-bloc .icon-round,
@@ -231,7 +256,7 @@ a:hover {
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
-    color: rgba(0, 0, 0, .6);
+    color: rgba(0, 0, 0, 0.6);
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -316,7 +341,7 @@ a:hover {
 }
 
 .navbar .nav {
-    padding-top: 2px;
+    padding-top: 4px;
     margin-right: -16px;
     float: right;
     z-index: 1;
@@ -326,6 +351,8 @@ a:hover {
     float: left;
     margin-top: 4px;
     font-size: 16px;
+    border-radius: 2em;
+    
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -334,7 +361,9 @@ a:hover {
 
 .nav > li a:hover,
 .nav > li a:focus {
-    background: transparent;
+    background: #3333330e;
+    border-bottom: #f36a2b;
+    border-bottom-style: solid;
 }
 
 .navbar-toggle {
@@ -361,11 +390,71 @@ a:hover {
     position: relative;
     z-index: 2;
 }
+/* style for form user accessability*/
+.form-group {
+    position: relative;
+}
+
+.form-group input {
+    border: 2px solid #808080;
+}
+
+.fas {
+    width: 25px;
+    height: auto;
+    position: absolute;
+    right: 15px;
+    top: 30px
+}
+
+img.fa-check-circle {
+    visibility: hidden;
+}
+
+img.fa-exclamation-circle {
+    visibility: hidden;
+}
+
+.form-group.success input {
+    border-color: #2eaf39;
+}
+
+.form-group.error input {
+    border-color: #e72020;
+}
+
+.form-group small {
+    position: absolute;
+    visibility: hidden;
+}
+
+.form-group.success img.fa-check-circle {
+    visibility: visible;
+}
+
+.form-group.error img.fa-exclamation-circle {
+    visibility: visible;
+}
+
+.form-group.error small {
+    visibility: visible;
+    color: #e72020;
+}
+
+.row .service-header {
+    font-size: 2em;;
+}
+
+.testimonial {
+    margin: 50px 150px;
+    text-align: left;
+    min-width: 50px;
+}
 
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
-        top: 50%;
+        top: 90%;
         right: 20px;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
@@ -648,7 +737,7 @@ h6,
 p,
 label,
 .btn,
-a {
+{
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
@@ -677,7 +766,7 @@ a {
 }
 
 p {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -781,7 +870,7 @@ h4 {
 }
 
 .tc-white {
-    color: #364577!important;
+    color: #ffffff!important;
 }
 
 .btn-atomic-tangerine {
@@ -790,7 +879,7 @@ h4 {
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #f36a2b!important;
     color: #FFFFFF!important;
 }
 
@@ -799,7 +888,7 @@ h4 {
 }
 
 .ltc-white:hover {
-    color: #cccccc!important;
+    color: #f36a2b!important;
 }
 
 .ltc-atomic-tangerine {
@@ -938,7 +1027,7 @@ h4 {
         width: 100%;
     }
     .nav > li:hover {
-        background: rgba(0, 0, 0, .08);
+        background: rgba(136, 136, 136, 0.08);
     }
     .dropdown .dropdown a .caret {
         float: none;
