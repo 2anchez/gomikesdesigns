@@ -6,12 +6,13 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
 .row {
     padding-top: 32px;
 }
 
 .col-sm-4 {
-    color: #fff;
+    
     font-weight: 800;
 }
 
@@ -451,6 +452,12 @@ img.fa-exclamation-circle {
     min-width: 50px;
 }
 
+@media (max-width: 400px) {
+    .testimonial {
+        margin: 50px;
+    }
+}
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -816,7 +823,8 @@ h1 {
 }
 
 h4 {
-    color: #333333!important;
+    color: #ffffff!important;
+    font-weight: 800;
 }
 
 .icons {
@@ -1133,5 +1141,9 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+
+    .col-sm-4 {
+        margin: 50px;
     }
 }
