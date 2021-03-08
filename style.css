@@ -747,7 +747,7 @@ label,
 {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #000000;
 }
 
 .container {
@@ -803,10 +803,11 @@ p {
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+    color: #333333;
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 12px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
