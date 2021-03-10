@@ -30,3 +30,4 @@ An audit report using the provided template, including:
 ![Github W3C Badge](https://img.shields.io/w3c-validation/html?color=orange&style=plastic&targetUrl=https%3A%2F%2F2anchez.github.io%2Fgomikesdesigns%2F)
 ![GitHub language count](https://img.shields.io/github/languages/count/2anchez/gomikesdesigns)
 ![GitHub Version](https://img.shields.io/badge/version-4.0.1-yellowgreen)
+![Update](https://img.shields.io/badge/updated-03%2F10%2F21-blue)
