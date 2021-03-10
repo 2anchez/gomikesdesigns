@@ -26,6 +26,4 @@ An audit report using the provided template, including:
 
 :chart_with_upwards_trend: Analyze the search engine performance of a website
 
-## Technology Used
-
-![HTML5 Logo](https://www.stickpng.com/img/icons-logos-emojis/tech-companies/html5-logo)
+![Github JavaScript Badge](https://img.shields.io/github/languages/top/2anchez/gomikesdesigns?style=plastic)
