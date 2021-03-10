@@ -27,3 +27,4 @@ An audit report using the provided template, including:
 :chart_with_upwards_trend: Analyze the search engine performance of a website
 
 ![Github JavaScript Badge](https://img.shields.io/github/languages/top/2anchez/gomikesdesigns?style=plastic)
+![Github W3C Badge](https://img.shields.io/w3c-validation/html?color=orange&style=plastic&targetUrl=https%3A%2F%2F2anchez.github.io%2Fgomikesdesigns%2F)
