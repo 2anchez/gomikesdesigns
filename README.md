@@ -1,6 +1,7 @@
 
 # Project 4 - Optimizing an Existing Website
-![Go Mike Designs Logo](img/atlanta web design logo.png)
+![Go Mike Designs Logo](https://raw.githubusercontent.com/2anchez/gomikesdesigns/main/img/atlanta%20web%20design%20logo.png_)
+
 Your friend Mike is a freelance web designer who lives in Atlanta. Many local shops have outdated websites, so he approached a few and landed his first clients. But now he would like potential customers to find him when they Google for local freelance web designers to hire. 
 
 With your new understanding of quality web development, you realize that his current portfolio website is not optimized for SEO and can be improved with better keyword content, structure, and speed optimization. You also suspect that some users with disabilities will encounter obstacles with his website, posing accessibility issues. 
