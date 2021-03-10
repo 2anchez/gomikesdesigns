@@ -1,6 +1,6 @@
 
 # Project 4 - Optimizing an Existing Website
-![Go Mike Designs Logo](https://raw.githubusercontent.com/2anchez/gomikesdesigns/main/img/atlanta%20web%20design%20logo.png_)
+![Go Mike Designs Logo](https://raw.githubusercontent.com/2anchez/gomikesdesigns/main/img/atlanta%20web%20design%20logo.png)
 
 Your friend Mike is a freelance web designer who lives in Atlanta. Many local shops have outdated websites, so he approached a few and landed his first clients. But now he would like potential customers to find him when they Google for local freelance web designers to hire. 
 
